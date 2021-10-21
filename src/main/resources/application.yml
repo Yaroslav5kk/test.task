@@ -1,0 +1,6 @@
+page:
+  load:
+    max-threads: 5
+
+server:
+  port : 8080
