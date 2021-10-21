@@ -21,10 +21,12 @@
   Path: 
     http://{host}:{port}/api/search
     **port: default=8080, можна встановити у application.yml
+  
   Query params:
     startUrl - string
     textToSearch - string
     maxNumberUrlToSearch - int
+    
   Response body:
     [
       {
@@ -33,4 +35,5 @@
         "message": string
       }
     ]
+    
 Наприклад http://localhost:8080/api/search?startUrl=https://spring.io&textToSearch=spring&maxNumberUrlToSearch=3
